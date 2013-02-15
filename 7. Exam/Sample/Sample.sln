@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Quadrant", "1. Quadrant\1. Quadrant.csproj", "{9DD30448-319F-444C-8760-CFA3389E3864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Forest road", "3. Forest road\3. Forest road.csproj", "{A6A86390-8CB3-40B0-8C40-62F7B1F7EF0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD30448-319F-444C-8760-CFA3389E3864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD30448-319F-444C-8760-CFA3389E3864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD30448-319F-444C-8760-CFA3389E3864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD30448-319F-444C-8760-CFA3389E3864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A86390-8CB3-40B0-8C40-62F7B1F7EF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A86390-8CB3-40B0-8C40-62F7B1F7EF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A86390-8CB3-40B0-8C40-62F7B1F7EF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A86390-8CB3-40B0-8C40-62F7B1F7EF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

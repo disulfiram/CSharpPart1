@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Numbers from 1 to N", "1. Numbers from 1 to N\1. Numbers from 1 to N.csproj", "{1FBED2D5-150B-42B3-AEF5-B1DC3CAFE48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Numbers not divided by 3 and 7", "2. Numbers not divided by 3 and 7\2. Numbers not divided by 3 and 7.csproj", "{DFB4E134-32D3-4102-8878-3123C2C564B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Read N Numbers", "3. Read N Numbers\3. Read N Numbers.csproj", "{0F9DE1DE-9256-4C54-86A1-23E64BFC5DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FBED2D5-150B-42B3-AEF5-B1DC3CAFE48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBED2D5-150B-42B3-AEF5-B1DC3CAFE48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBED2D5-150B-42B3-AEF5-B1DC3CAFE48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBED2D5-150B-42B3-AEF5-B1DC3CAFE48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB4E134-32D3-4102-8878-3123C2C564B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB4E134-32D3-4102-8878-3123C2C564B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB4E134-32D3-4102-8878-3123C2C564B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB4E134-32D3-4102-8878-3123C2C564B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9DE1DE-9256-4C54-86A1-23E64BFC5DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9DE1DE-9256-4C54-86A1-23E64BFC5DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9DE1DE-9256-4C54-86A1-23E64BFC5DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9DE1DE-9256-4C54-86A1-23E64BFC5DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

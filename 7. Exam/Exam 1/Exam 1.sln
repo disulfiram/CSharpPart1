@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Battleship", "1. Battleship\1. Battleship.csproj", "{EC5224A9-E0DC-4D85-B69A-C3C433DC3BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Tribonacci", "2. Tribonacci\2. Tribonacci.csproj", "{BC039867-83DD-4FE9-BD3E-9A4B98218EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Fir Tree", "3. Fir Tree\3. Fir Tree.csproj", "{FC972101-A830-4C3B-99E0-41208B61B9A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC5224A9-E0DC-4D85-B69A-C3C433DC3BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5224A9-E0DC-4D85-B69A-C3C433DC3BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5224A9-E0DC-4D85-B69A-C3C433DC3BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5224A9-E0DC-4D85-B69A-C3C433DC3BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC039867-83DD-4FE9-BD3E-9A4B98218EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC039867-83DD-4FE9-BD3E-9A4B98218EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC039867-83DD-4FE9-BD3E-9A4B98218EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC039867-83DD-4FE9-BD3E-9A4B98218EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC972101-A830-4C3B-99E0-41208B61B9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC972101-A830-4C3B-99E0-41208B61B9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC972101-A830-4C3B-99E0-41208B61B9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC972101-A830-4C3B-99E0-41208B61B9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
