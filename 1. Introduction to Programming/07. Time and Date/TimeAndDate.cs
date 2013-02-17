@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Create a console application that prints the current date and time.
+
+using System;
 
 class TimeAndDate
 {
@@ -9,4 +11,3 @@ class TimeAndDate
         Console.WriteLine("Current date = {0:D}", DateTime.Now);
     }
 }
-

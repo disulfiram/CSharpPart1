@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Create console application that prints your first and last name.
+
+using System;
 
 class Introduction
 {
@@ -8,4 +10,3 @@ class Introduction
         Console.WriteLine("My name is Plamen Popov");
     }
 }
-
