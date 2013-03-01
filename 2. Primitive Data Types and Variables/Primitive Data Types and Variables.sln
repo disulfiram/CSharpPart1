@@ -1,33 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Suitable Numbers", "1. Suitable Numbers\1. Suitable Numbers.csproj", "{A97164A1-F9E3-48A5-84D4-D3D074113CAA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Float or Double", "2. Float or Double\2. Float or Double.csproj", "{2B3A2E90-5CCA-40BE-A433-2A6FB7B8E58F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Float Input Comparison", "3. Float Input Comparison\3. Float Input Comparison.csproj", "{54F8F099-6A74-4535-A61C-292AF6579D55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Hex to Decimal(convert)", "4. Hex to Decimal(convert)\4. Hex to Decimal(convert).csproj", "{5F49B1F1-FACB-41D7-A6D6-D13498A3A691}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Unicode Char", "5. Unicode Char\5. Unicode Char.csproj", "{B4878052-ABCF-4670-8C27-57CCA0A935C8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Bool gender check", "6. Bool gender check\6. Bool gender check.csproj", "{023E7C73-4E7D-45F1-9D66-627ABB6EB83E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. String+String=Object", "7. String+String=Object\7. String+String=Object.csproj", "{516F4D7E-2506-4087-8818-B10596827680}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Quotation are problematic", "8. Quotation are problematic\8. Quotation are problematic.csproj", "{5E8BB2E0-2B23-4C4D-B7C5-440530F3E424}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Copyrighted Triangle", "9. Copyrighted Triangle\9. Copyrighted Triangle.csproj", "{EE5F07CB-C571-465F-BCD7-9B3DC5BD65E0}"
-EndProject
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Marketing Profiles", "10. Marketing Profiles\10. Marketing Profiles.csproj", "{BB235A4A-D72B-4DF7-8599-08EE4BB43220}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Exchange Values", "11. Exchange Values\11. Exchange Values.csproj", "{120376DB-49A4-4197-87DF-29A6B21A02A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Null Values", "13. Null Values\13. Null Values.csproj", "{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. ASCII Table", "12 ASCII Table\12. ASCII Table.csproj", "{B64DDE13-984E-4302-AEEA-C39C930AE26E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Bank Account", "14. Bank Account\14. Bank Account.csproj", "{79B72769-86BB-4A11-8500-B38CC5B48646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Suitable Numbers", "01. Suitable Numbers\01. Suitable Numbers.csproj", "{A97164A1-F9E3-48A5-84D4-D3D074113CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Float or Double", "02. Float or Double\02. Float or Double.csproj", "{2B3A2E90-5CCA-40BE-A433-2A6FB7B8E58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Float Input Comparison", "03. Float Input Comparison\03. Float Input Comparison.csproj", "{54F8F099-6A74-4535-A61C-292AF6579D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Hex to Decimal(convert)", "04. Hex to Decimal(convert)\04. Hex to Decimal(convert).csproj", "{5F49B1F1-FACB-41D7-A6D6-D13498A3A691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Unicode Char", "05. Unicode Char\05. Unicode Char.csproj", "{B4878052-ABCF-4670-8C27-57CCA0A935C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Bool gender check", "06. Bool gender check\06. Bool gender check.csproj", "{023E7C73-4E7D-45F1-9D66-627ABB6EB83E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. String+String=Object", "07. String+String=Object\07. String+String=Object.csproj", "{516F4D7E-2506-4087-8818-B10596827680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Quotation are problematic", "08. Quotation are problematic\08. Quotation are problematic.csproj", "{5E8BB2E0-2B23-4C4D-B7C5-440530F3E424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Copyrighted Triangle", "09. Copyrighted Triangle\09. Copyrighted Triangle.csproj", "{EE5F07CB-C571-465F-BCD7-9B3DC5BD65E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. ASCII Table", "12. ASCII Table\12. ASCII Table.csproj", "{B64DDE13-984E-4302-AEEA-C39C930AE26E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +35,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B72769-86BB-4A11-8500-B38CC5B48646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B72769-86BB-4A11-8500-B38CC5B48646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B72769-86BB-4A11-8500-B38CC5B48646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B72769-86BB-4A11-8500-B38CC5B48646}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A97164A1-F9E3-48A5-84D4-D3D074113CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A97164A1-F9E3-48A5-84D4-D3D074113CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A97164A1-F9E3-48A5-84D4-D3D074113CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,26 +87,10 @@ Global
 		{EE5F07CB-C571-465F-BCD7-9B3DC5BD65E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5F07CB-C571-465F-BCD7-9B3DC5BD65E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5F07CB-C571-465F-BCD7-9B3DC5BD65E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB235A4A-D72B-4DF7-8599-08EE4BB43220}.Release|Any CPU.Build.0 = Release|Any CPU
-		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{120376DB-49A4-4197-87DF-29A6B21A02A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCC79AD0-F6CD-429A-8F6F-6CE42AF07939}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B64DDE13-984E-4302-AEEA-C39C930AE26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B64DDE13-984E-4302-AEEA-C39C930AE26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64DDE13-984E-4302-AEEA-C39C930AE26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64DDE13-984E-4302-AEEA-C39C930AE26E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79B72769-86BB-4A11-8500-B38CC5B48646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79B72769-86BB-4A11-8500-B38CC5B48646}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79B72769-86BB-4A11-8500-B38CC5B48646}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79B72769-86BB-4A11-8500-B38CC5B48646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

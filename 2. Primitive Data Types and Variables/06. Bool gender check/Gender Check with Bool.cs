@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Declare a boolean variable called isFemale and assign an appropriate 
+//value corresponding to your gender.
+
+using System;
 
 class BoolGenderCheck
 {
@@ -6,7 +9,7 @@ class BoolGenderCheck
     {
         Console.Title = "Plamen Popov";
         bool isFemale = false;
-        if (isFemale==true)
+        if (isFemale == true)
         {
             Console.WriteLine("Your gender is female.");
         }
@@ -16,4 +19,3 @@ class BoolGenderCheck
         }
     }
 }
-

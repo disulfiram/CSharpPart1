@@ -1,4 +1,10 @@
-﻿using System;
+﻿//A marketing firm wants to keep record of its employees. Each record 
+//would have the following characteristics – first name, family name, age, 
+//gender (m or f), ID number, unique employee number (27560000 to 
+//27569999). Declare the variables needed to keep the information for a 
+//single employee using appropriate data types and descriptive names.
+
+using System;
 
 class Profile
 {
@@ -6,15 +12,15 @@ class Profile
     {
         Console.Title = "Please enter your details.";
         Console.Write("First Name: ");
-        string FirstName = Console.ReadLine();      
+        string firstName = Console.ReadLine();      
         Console.Write("Last Name: ");
-        string LastName = Console.ReadLine();
+        string lastName = Console.ReadLine();
         Console.Write("Age: ");
-        byte Age;
+        byte age;
         while (true)
         {
-            Age = byte.Parse(Console.ReadLine());
-            if (Age <= 70)
+            age = byte.Parse(Console.ReadLine());
+            if (age <= 70)
             {
                 break;
             }
@@ -23,26 +29,26 @@ class Profile
                 Console.WriteLine("Invalid value. Try again: ");
             }
         }
-        string Sex;
+        string sex;
         Console.Write("Sex(f/m): ");
-        Sex = Console.ReadLine();
-        bool GenderCheck = (Sex == "f");
-        if (GenderCheck == true)
+        sex = Console.ReadLine();
+        bool genderCheck = (sex == "f");
+        if (genderCheck == true)
         {
-            Sex = "Female";
+            sex = "Female";
         }
         else
         {
-            Sex = "Male";
+            sex = "Male";
         }
         Console.Write("ID Number: 2756");
-        ushort IDNumber;
+        ushort idNumber;
         while (true)
         {
-            IDNumber = ushort.Parse(Console.ReadLine());
-            if (IDNumber <= 9999)
+            idNumber = ushort.Parse(Console.ReadLine());
+            if (idNumber <= 9999)
             {
-                if (IDNumber > 999)     //could not find a way to do this with one cycle
+                if (idNumber > 999)     //could not find a way to do this with one cycle
                 {
                     break;
                 }
@@ -56,6 +62,6 @@ class Profile
                 Console.WriteLine("Invalid ID Number value. Try again: 2756");
             }
         }
-        Console.WriteLine(" Name: {0} {1}\n Age: {2}\n Sex: {3}\n ID Number: 2756{4}", FirstName, LastName, Age, Sex, IDNumber);
+        Console.WriteLine(" Name: {0} {1}\n Age: {2}\n Sex: {3}\n ID Number: 2756{4}", firstName, lastName, age, sex, idNumber);
     }
 }
