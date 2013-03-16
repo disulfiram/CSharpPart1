@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 class PrimeNumbers
 {
@@ -9,25 +7,23 @@ class PrimeNumbers
     {
         Console.Title = "Prime or not?";
         Console.Write("Enter number: ");
-        int i = int.Parse(Console.ReadLine());
-        int j;
+        int number = int.Parse(Console.ReadLine());
         bool isPrime = true;
-        for (j = 2; j < i; j++)
+        for (int divisor = 2; divisor < number; divisor++)
         {
-            if (i != j && i % j == 0)
+            if (number != divisor && number % divisor == 0)
             {
                 isPrime = false;
                 break;
             }
         }
         if (isPrime)
-	    {
-            Console.WriteLine("{0} is prime", i);
-	    }
+        {
+            Console.WriteLine("{0} is prime", number);
+        }
         else
         {
-            Console.WriteLine("{0} is not prime", i);
+            Console.WriteLine("{0} is not prime", number);
         }
     }
 }
-

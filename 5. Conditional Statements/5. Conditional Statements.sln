@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Exchange grater", "1. Exchange grater\1. Exchange grater.csproj", "{2C517FC9-8A0B-4B7C-A21F-B949922ECE4D}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Exchange grater", "1. Exchange grater\01. Exchange grater.csproj", "{2C517FC9-8A0B-4B7C-A21F-B949922ECE4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. - or +", "2. - or +\2. - or +.csproj", "{D54FB587-119F-4BC6-A0D6-C8403E2FE991}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. - or +", "2. - or +\02. - or +.csproj", "{D54FB587-119F-4BC6-A0D6-C8403E2FE991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Grater of three", "3. Grater of three\3. Grater of three.csproj", "{660E75C6-645B-4151-B9FA-1D3614AE17BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Grater of three", "3. Grater of three\03. Grater of three.csproj", "{660E75C6-645B-4151-B9FA-1D3614AE17BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Sort values", "4. Sort values\4. Sort values.csproj", "{9106FD5E-FE52-4B9B-B573-492CB1F16F07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sort values", "4. Sort values\04. Sort values.csproj", "{9106FD5E-FE52-4B9B-B573-492CB1F16F07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Case Digit", "5. Case Digit\5. Case Digit.csproj", "{D4466B33-ADF5-4791-8569-73D29C335617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Case Digit", "5. Case Digit\05. Case Digit.csproj", "{D4466B33-ADF5-4791-8569-73D29C335617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Quadratic Equation", "6. Quadratic Equation\6. Quadratic Equation.csproj", "{4FFC1C58-5C30-4F7F-9D6F-A2EC06721394}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Quadratic Equation", "6. Quadratic Equation\06. Quadratic Equation.csproj", "{4FFC1C58-5C30-4F7F-9D6F-A2EC06721394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Greatest of five", "7. Greatest of five\7. Greatest of five.csproj", "{D379AED8-D319-4A12-9A68-5FCFF73B70D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Greatest of five", "7. Greatest of five\07. Greatest of five.csproj", "{D379AED8-D319-4A12-9A68-5FCFF73B70D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. User input", "8. User input\8. User input.csproj", "{906856D5-31EE-480F-AD4C-FA7675D21A65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. User input", "8. User input\08. User input.csproj", "{906856D5-31EE-480F-AD4C-FA7675D21A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Sum of 5 numbers equels 0", "9. Sum of 5 numbers equels 0\9. Sum of 5 numbers equels 0.csproj", "{3A2CAB7B-5F1D-4BA7-9CD5-D13F0AD4C5D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Sum of 5 numbers equels 0", "9. Sum of 5 numbers equels 0\09. Sum of 5 numbers equels 0.csproj", "{3A2CAB7B-5F1D-4BA7-9CD5-D13F0AD4C5D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Another switch", "10. Another switch\10. Another switch.csproj", "{04BD4177-1A22-4C4D-A817-117D428A90C8}"
 EndProject

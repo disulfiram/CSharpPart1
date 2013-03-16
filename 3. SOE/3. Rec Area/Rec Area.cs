@@ -6,11 +6,11 @@ class RecArea
     {
         Console.Title = "Area of Rectangle";
         Console.Write("Height = ");
-        uint Height = uint.Parse(Console.ReadLine());
+        uint height = uint.Parse(Console.ReadLine());
         Console.Write("Width = ");
-        uint Width = uint.Parse(Console.ReadLine());
-        uint Area = Height * Width;
-        Console.WriteLine("Area of the rectangle is: {0}", Area);
+        uint width = uint.Parse(Console.ReadLine());
+        uint area = height * width;
+        Console.WriteLine("Area of the rectangle is: {0}", area);
     }
 }
 

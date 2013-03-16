@@ -6,17 +6,17 @@ class DotInCircle
     {
         Console.Title = "Is the given dot inside a circle K(0,5)";
         Console.Write("X coordinate of dot: ");
-        double InputX = double.Parse(Console.ReadLine());       //Not suer if float or double?
+        double inputX = double.Parse(Console.ReadLine());       //Not suer if float or double?
         Console.Write("Y coordinate of dot: ");
-        double InputY = double.Parse(Console.ReadLine());
-        double Dist = Math.Sqrt((InputX*InputX) + (InputY*InputY));
-        if (Dist < 5)
+        double inputY = double.Parse(Console.ReadLine());
+        double dist = Math.Sqrt((inputX*inputX) + (inputY*inputY));
+        if (dist < 5)
         {
             Console.WriteLine("The dot is in the circle");
         }
         else
         {
-            if (Dist == 5)
+            if (dist == 5)
             {
                 Console.WriteLine("The dot is on the circle");
             }

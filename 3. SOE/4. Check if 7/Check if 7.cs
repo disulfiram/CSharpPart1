@@ -7,9 +7,9 @@ class Check3rdDigit
     {
         Console.Title = "Check if third digit is 7";
         Console.Write("Input number: ");
-        int RandomNumber = int.Parse(Console.ReadLine());
-        RandomNumber = RandomNumber / 100;
-        Console.WriteLine(RandomNumber % 10 == 7);
+        int randomNumber = int.Parse(Console.ReadLine());
+        randomNumber = randomNumber / 100;
+        Console.WriteLine(randomNumber % 10 == 7);
     }
 }
 

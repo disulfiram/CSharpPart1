@@ -6,14 +6,14 @@ class UserInput
     {
         Console.Title = "User input";
         Console.WriteLine("Type: I for integer; D for double; S for string");
-        string I = "i";
-        string D = "d";
-        string S = "S";
-        string Choice;
+        string i = "i";
+        string d = "d";
+        string s = "S";
+        string choice;
         while (true)
         {
-            Choice = Console.ReadLine();
-            if ((Choice == I) || (Choice == D) || (Choice == S))
+            choice = Console.ReadLine();
+            if ((choice.ToLower() == i) || (choice.ToLower() == d) || (choice.ToLower() == s))
             {
                 break;
             }
@@ -22,20 +22,20 @@ class UserInput
                 Console.WriteLine("I, D or S");
             }
         }
-        int Digit = 2;
-        string DigitString = System.Convert.ToString(Digit);
-        switch (Choice)
+        int digit = 2;
+        string digitString = System.Convert.ToString(digit);
+        switch (choice)
         {
             case "i":
-                int Int;
+                int @int;
                 while (true)
                 {
                     Console.Write("Input integer: ");
-                    string Value = Console.ReadLine();
-                    bool IntResult = int.TryParse(Value, out Int);
-                    if (IntResult == true)
+                    string value = Console.ReadLine();
+                    bool intResult = int.TryParse(value, out @int);
+                    if (intResult == true)
                     {
-                        Console.WriteLine(Int);
+                        Console.WriteLine(@int);
                         break;
                     }
                     else
@@ -45,15 +45,15 @@ class UserInput
                 }
                 break;
             case "d":
-                double Double;
+                double @double;
                 while (true)
                 {
                     Console.Write("Input double: ");
-                    string Value = Console.ReadLine();
-                    bool DoubleResult = double.TryParse(Value, out Double);
-                    if (DoubleResult == true)
+                    string value = Console.ReadLine();
+                    bool doubleResult = double.TryParse(value, out @double);
+                    if (doubleResult == true)
                     {
-                        Console.WriteLine(Double);
+                        Console.WriteLine(@double);
                         break;
                     }
                     else
@@ -64,8 +64,8 @@ class UserInput
                 break;
             case "s":
                 Console.Write("Write a string: ");
-                string String = Console.ReadLine();
-                Console.WriteLine(String);
+                string @string = Console.ReadLine();
+                Console.WriteLine(@string);
                 break;
         }
     }

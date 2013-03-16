@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Odd or Even", "1. Odd or Even\1. Odd or Even.csproj", "{21BBE733-293F-4FDC-B06B-9A4D87A9741F}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd or Even", "1. Odd or Even\01. Odd or Even.csproj", "{21BBE733-293F-4FDC-B06B-9A4D87A9741F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Devide by 5 and 7", "2. Devide by 5 and 7\2. Devide by 5 and 7.csproj", "{4707F67D-26E0-49FD-9AAB-73E0BBFFADA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Devide by 5 and 7", "2. Devide by 5 and 7\02. Devide by 5 and 7.csproj", "{4707F67D-26E0-49FD-9AAB-73E0BBFFADA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Dot in Circle", "6. Dot in Circle\6. Dot in Circle.csproj", "{E345301D-BBC5-4EF1-B625-184A71B19DE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Dot in Circle", "6. Dot in Circle\06. Dot in Circle.csproj", "{E345301D-BBC5-4EF1-B625-184A71B19DE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Rec Area", "3. Rec Area\3. Rec Area.csproj", "{EBA3D4CE-7DF4-4E96-9522-BBB65E5EA241}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Rec Area", "3. Rec Area\03. Rec Area.csproj", "{EBA3D4CE-7DF4-4E96-9522-BBB65E5EA241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Check if 7", "4. Check if 7\4. Check if 7.csproj", "{D7A6F99A-8853-4540-94D8-DF936FF43A8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Check if 7", "4. Check if 7\04. Check if 7.csproj", "{D7A6F99A-8853-4540-94D8-DF936FF43A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. 3rd Bit", "5. 3rd Bit\5. 3rd Bit.csproj", "{5BFFE82F-710E-46CA-8DCE-0A9816F0B414}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. 3rd Bit", "5. 3rd Bit\05. 3rd Bit.csproj", "{5BFFE82F-710E-46CA-8DCE-0A9816F0B414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Prime numbers", "7. Prime numbers\7. Prime numbers.csproj", "{136AE65E-E3BA-4FD9-A6ED-346DE621AEA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Prime numbers", "7. Prime numbers\07. Prime numbers.csproj", "{136AE65E-E3BA-4FD9-A6ED-346DE621AEA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Trapezoid", "8. Trapezoid\8. Trapezoid.csproj", "{5510D986-1638-4D72-A380-618E9E32A9A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Trapezoid", "8. Trapezoid\08. Trapezoid.csproj", "{5510D986-1638-4D72-A380-618E9E32A9A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Dot in Circle and Rec", "9. Dot in Circle and Rec\9. Dot in Circle and Rec.csproj", "{C846F276-BB49-4086-8450-0C61F348B85D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Dot in Circle and Rec", "9. Dot in Circle and Rec\09. Dot in Circle and Rec.csproj", "{C846F276-BB49-4086-8450-0C61F348B85D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Any it of any number", "10. Any it of any number\10. Any it of any number.csproj", "{32F4BBF2-5E93-4C57-AE78-48B600EBE252}"
 EndProject

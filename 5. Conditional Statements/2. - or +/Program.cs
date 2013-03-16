@@ -5,20 +5,20 @@ class Sign
     static void Main()
     {
         Console.Title = "Sign of product";
-        double X;
-        double Y;
-        double Z;
+        double x;
+        double y;
+        double z;
         while (true)
         {
             Console.Write("Input X: ");
-            string Value = Console.ReadLine();
-            bool xResult = double.TryParse(Value, out X);
+            string value = Console.ReadLine();
+            bool xResult = double.TryParse(value, out x);
             Console.Write("Input Y: ");
-            Value = Console.ReadLine();
-            bool yResult = double.TryParse(Value, out Y);
+            value = Console.ReadLine();
+            bool yResult = double.TryParse(value, out y);
             Console.Write("Input Z: ");
-            Value = Console.ReadLine();
-            bool zResult = double.TryParse(Value, out Z);
+            value = Console.ReadLine();
+            bool zResult = double.TryParse(value, out z);
             if ((xResult == true) && (yResult == true) && (zResult == true))
             {
                 break;
@@ -28,13 +28,13 @@ class Sign
                 Console.WriteLine("Invalid numbers. Try again:");
             }
         }
-        if (X == 0 || Y == 0 || Z == 0)
+        if (x == 0 || y == 0 || z == 0)
         {
             Console.WriteLine("Product is 0");
         }
         else
         {
-            if ((X > 0 && Y > 0 && Z > 0) || (X < 0 && Y < 0 && Z > 0) || (X > 0 && Y < 0 && Z < 0) || (X < 0 && Y > 0 && Z < 0))
+            if ((x > 0 && y > 0 && z > 0) || (x < 0 && y < 0 && z > 0) || (x > 0 && y < 0 && z < 0) || (x < 0 && y > 0 && z < 0))
             {
                 Console.WriteLine("Sign is '+'");
             }

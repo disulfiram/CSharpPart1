@@ -12,14 +12,14 @@ class QuadraticEquation
         while (true)
         {
             Console.Write("a = ");
-            string Value = Console.ReadLine();
-            bool aResult = double.TryParse(Value, out a);
+            string value = Console.ReadLine();
+            bool aResult = double.TryParse(value, out a);
             Console.Write("b = ");
-            Value = Console.ReadLine();
-            bool bResult = double.TryParse(Value, out b);
+            value = Console.ReadLine();
+            bool bResult = double.TryParse(value, out b);
             Console.Write("c = ");
-            Value = Console.ReadLine();
-            bool cResult = double.TryParse(Value, out c);
+            value = Console.ReadLine();
+            bool cResult = double.TryParse(value, out c);
             if ((aResult == true) && (bResult == true) && (cResult == true))
             {
                 break;
@@ -29,19 +29,19 @@ class QuadraticEquation
                 Console.WriteLine("Invalid numbers. Try again:");
             }
         }
-        double D = Math.Pow(b, 2) - (4 * a * c);
-        if (D == 0)
+        double discreminant = Math.Pow(b, 2) - (4 * a * c);
+        if (discreminant == 0)
         {
             double x = -b / (2 * a);
             Console.WriteLine("Equation has one solution: {0}", x);
         }
         else
         {
-            if (D > 0)
+            if (discreminant > 0)
             {
-                double x_1 = (-b + Math.Sqrt(D)) / (2 * a);
-                double x_2 = (-b - Math.Sqrt(D)) / (2 * a);
-                Console.WriteLine("Solutions to the equation are: {0}, {1}", x_1, x_2);
+                double x1 = (-b + Math.Sqrt(discreminant)) / (2 * a);
+                double x2 = (-b - Math.Sqrt(discreminant)) / (2 * a);
+                Console.WriteLine("Solutions to the equation are: {0}, {1}", x1, x2);
             }
             else
             {

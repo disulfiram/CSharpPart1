@@ -6,16 +6,16 @@ class DivideBy5abd7
     {
         Console.Title = "Devide by 5 and 7 at the same time.";
         Console.Write("Input an integer: ");
-        int InputInt = int.Parse(Console.ReadLine());
-        bool check5 = (InputInt % 5 == 0);
-        bool check7 = (InputInt % 7 == 0);
+        int inputInt = int.Parse(Console.ReadLine());
+        bool check5 = (inputInt % 5 == 0);
+        bool check7 = (inputInt % 7 == 0);
         if (check5 == true && check7 == true)
         {
-            Console.WriteLine("{0} can be devided by 5 and 7 at the same time.", InputInt);
+            Console.WriteLine("{0} can be devided by 5 and 7 at the same time.", inputInt);
         }
         else
         {
-            Console.WriteLine("{0} cannot be devided by 5 and 7 at the same time.", InputInt);
+            Console.WriteLine("{0} cannot be devided by 5 and 7 at the same time.", inputInt);
         }
     }
 }

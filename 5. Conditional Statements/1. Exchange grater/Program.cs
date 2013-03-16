@@ -5,17 +5,17 @@ class ExchangeGrater
     static void Main()
     {
         Console.Title = "Exchange two intigers";
-        int X;
-        int Y;
+        int x;
+        int y;
         Console.WriteLine("Input two intigers:");
         while (true)
         {
             Console.Write("Input X: ");
-            string Value = Console.ReadLine();
-            bool xResult = int.TryParse(Value, out X);
+            string value = Console.ReadLine();
+            bool xResult = int.TryParse(value, out x);
             Console.Write("Input Y: ");
-            Value = Console.ReadLine();
-            bool yResult = int.TryParse(Value, out Y);
+            value = Console.ReadLine();
+            bool yResult = int.TryParse(value, out y);
             if ((xResult == true) && (yResult == true))
             {
                 break;
@@ -25,14 +25,14 @@ class ExchangeGrater
                 Console.WriteLine("Invalid numbers. Try again:");
             }
         }
-        if (X > Y)
+        if (x > y)
         {
             int temp;
-            temp = Y;
-            Y = X;
-            X = temp;
+            temp = y;
+            y = x;
+            x = temp;
         }
-        Console.WriteLine("X = {0} & Y = {1}", X, Y);
+        Console.WriteLine("X = {0} & Y = {1}", x, y);
     }
 }
 

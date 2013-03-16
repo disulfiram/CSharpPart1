@@ -5,21 +5,21 @@ class SortValues
     static void Main()
     {
         Console.Title = "Grater of three numbers";
-        int X;
-        int Y;
-        int Z;
+        int x;
+        int y;
+        int z;
         Console.WriteLine("Input three intigers:");
         while (true)
         {
             Console.Write("X = ");
-            string Value = Console.ReadLine();
-            bool xResult = int.TryParse(Value, out X);
+            string value = Console.ReadLine();
+            bool xResult = int.TryParse(value, out x);
             Console.Write("Y = ");
-            Value = Console.ReadLine();
-            bool yResult = int.TryParse(Value, out Y);
+            value = Console.ReadLine();
+            bool yResult = int.TryParse(value, out y);
             Console.Write("Z = ");
-            Value = Console.ReadLine();
-            bool zResult = int.TryParse(Value, out Z);
+            value = Console.ReadLine();
+            bool zResult = int.TryParse(value, out z);
             if ((xResult == true) && (yResult == true) && (zResult == true))
             {
                 break;
@@ -29,39 +29,39 @@ class SortValues
                 Console.WriteLine("Invalid numbers. Try again:");
             }
         }
-        if (X > Y)
+        if (x > y)
         {
-            if (Y > Z)
+            if (y > z)
             {
-                Console.WriteLine("{0}, {1}, {2}", X, Y, Z);
+                Console.WriteLine("{0}, {1}, {2}", x, y, z);
             }
             else
             {
-                if (X > Z)
+                if (x > z)
 	            {
-		            Console.WriteLine("{0}, {2}, {1}", X, Y, Z);
+		            Console.WriteLine("{0}, {2}, {1}", x, y, z);
 	            }
                 else
 	            {
-                    Console.WriteLine("{2}, {0}, {1}", X, Y, Z);
+                    Console.WriteLine("{2}, {0}, {1}", x, y, z);
 	            }
             }
         }
         else
         {
-            if (X > Z)
+            if (x > z)
             {
-                Console.WriteLine("{1}, {0}, {2}", X, Y, Z);
+                Console.WriteLine("{1}, {0}, {2}", x, y, z);
             }
             else
             {
-                if (Y > Z)
+                if (y > z)
                 {
-                    Console.WriteLine("{1}, {2}, {0}", X, Y, Z);
+                    Console.WriteLine("{1}, {2}, {0}", x, y, z);
                 }
                 else
                 {
-                    Console.WriteLine("{2}, {1}, {0}", X, Y, Z);
+                    Console.WriteLine("{2}, {1}, {0}", x, y, z);
                 }
             }
         }
